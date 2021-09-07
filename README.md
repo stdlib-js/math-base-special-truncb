@@ -105,6 +105,26 @@ for ( i = 0; i < 100; i++ ) {
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/math/base/special/ceilb`][@stdlib/math/base/special/ceilb]: round a numeric value to the nearest multiple of b^n toward positive infinity.
+-   [`@stdlib/math/base/special/floorb`][@stdlib/math/base/special/floorb]: round a numeric value to the nearest multiple of b^n toward negative infinity.
+-   [`@stdlib/math/base/special/roundb`][@stdlib/math/base/special/roundb]: round a numeric value to the nearest multiple of b^n on a linear scale.
+-   [`@stdlib/math/base/special/trunc`][@stdlib/math/base/special/trunc]: round a double-precision floating-point number toward zero.
+-   [`@stdlib/math/base/special/truncn`][@stdlib/math/base/special/truncn]: round a numeric value to the nearest multiple of 10^n toward zero.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -161,6 +181,20 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-base-special-truncb/main/LICENSE
 
 [ieee754]: https://en.wikipedia.org/wiki/IEEE_754-1985
+
+<!-- <related-links> -->
+
+[@stdlib/math/base/special/ceilb]: https://github.com/stdlib-js/math-base-special-ceilb
+
+[@stdlib/math/base/special/floorb]: https://github.com/stdlib-js/math-base-special-floorb
+
+[@stdlib/math/base/special/roundb]: https://github.com/stdlib-js/math-base-special-roundb
+
+[@stdlib/math/base/special/trunc]: https://github.com/stdlib-js/math-base-special-trunc
+
+[@stdlib/math/base/special/truncn]: https://github.com/stdlib-js/math-base-special-truncn
+
+<!-- </related-links> -->
 
 </section>
 
