@@ -24,32 +24,30 @@ limitations under the License.
 
 > Round a numeric value to the nearest multiple of b^n toward zero.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-truncb
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-truncb = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-truncb@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-truncb@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.truncb;
-})();
-</script>
+var truncb = require( '@stdlib/math-base-special-truncb' );
 ```
 
 #### truncb( x, n, b )
@@ -90,16 +88,11 @@ v = truncb( 5.0, 1, 2 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-pow@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-truncb@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var randu = require( '@stdlib/random-base-randu' );
+var round = require( '@stdlib/math-base-special-round' );
+var pow = require( '@stdlib/math-base-special-pow' );
+var truncb = require( '@stdlib/math-base-special-truncb' );
 
 var x;
 var n;
@@ -114,11 +107,6 @@ for ( i = 0; i < 100; i++ ) {
     v = truncb( x, n, b );
     console.log( 'x: %d. %d^%d: %d. Rounded: %d.', x, b, n, pow( b, n ), v );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -208,6 +196,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/math-base-special-truncb/tree/deno
 [umd-url]: https://github.com/stdlib-js/math-base-special-truncb/tree/umd
 [esm-url]: https://github.com/stdlib-js/math-base-special-truncb/tree/esm
+[branches-url]: https://github.com/stdlib-js/math-base-special-truncb/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-base-special-truncb/main/LICENSE
 
@@ -215,15 +204,15 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/ceilb]: https://github.com/stdlib-js/math-base-special-ceilb/tree/umd
+[@stdlib/math/base/special/ceilb]: https://github.com/stdlib-js/math-base-special-ceilb
 
-[@stdlib/math/base/special/floorb]: https://github.com/stdlib-js/math-base-special-floorb/tree/umd
+[@stdlib/math/base/special/floorb]: https://github.com/stdlib-js/math-base-special-floorb
 
-[@stdlib/math/base/special/roundb]: https://github.com/stdlib-js/math-base-special-roundb/tree/umd
+[@stdlib/math/base/special/roundb]: https://github.com/stdlib-js/math-base-special-roundb
 
-[@stdlib/math/base/special/trunc]: https://github.com/stdlib-js/math-base-special-trunc/tree/umd
+[@stdlib/math/base/special/trunc]: https://github.com/stdlib-js/math-base-special-trunc
 
-[@stdlib/math/base/special/truncn]: https://github.com/stdlib-js/math-base-special-truncn/tree/umd
+[@stdlib/math/base/special/truncn]: https://github.com/stdlib-js/math-base-special-truncn
 
 <!-- </related-links> -->
 
