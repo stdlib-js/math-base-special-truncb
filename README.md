@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+truncb = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-truncb@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-truncb/tags). For example,
+
+```javascript
 truncb = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-truncb@v0.2.0-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var truncb = require( 'path/to/vendor/umd/math-base-special-truncb/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-truncb@v0.2.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-truncb@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -114,7 +119,7 @@ v = truncb( 5.0, 1, 2 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-pow@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-truncb@v0.2.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-truncb@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
