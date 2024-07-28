@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-26)
+## Unreleased (2024-07-28)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`3264c24`](https://github.com/stdlib-js/stdlib/commit/3264c24815dcbd08eeb4afbf3909a3223bdaf2c1) - **chore:** update package meta data [(#2686)](https://github.com/stdlib-js/stdlib/pull/2686) _(by stdlib-bot, Athan Reines)_
 -   [`c6dc95a`](https://github.com/stdlib-js/stdlib/commit/c6dc95aa33843100a7ba3918931eea934ed8caa8) - **feat:** add C implementation for `math/base/special/truncb` _(by Gunj Joshi)_
 
 </details>
@@ -34,8 +35,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Gunj Joshi
 
 </section>
