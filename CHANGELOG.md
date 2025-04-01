@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-27)
+## Unreleased (2025-04-01)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
 -   [`4039ae0`](https://github.com/stdlib-js/stdlib/commit/4039ae0c885e813edca9f53211d79b38e911b65a) - **bench:** update random value generation [(#5466)](https://github.com/stdlib-js/stdlib/pull/5466) _(by Karan Anand)_
 
 </details>
